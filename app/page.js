@@ -56,7 +56,7 @@ export default function Home() {
           </div>
 
           <div className="content-section">
-            <h2>Featured Properties</h2>
+            <h2>Viraj Bhatia</h2>
             
             {/* LinkedIn-style post layout */}
             <div className="linkedin-post">
@@ -69,7 +69,7 @@ export default function Home() {
                 />
                 <div className="image-overlay">
                   <h3>Leveraging Technology in Real Estate Services</h3>
-                  <p>What Next · 14 Sept 2023</p>
+                  <p>Future Real Estate · 14 Sept 2023</p>
                 </div>
               </div>
               
