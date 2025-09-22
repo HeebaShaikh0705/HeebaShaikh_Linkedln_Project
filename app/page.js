@@ -31,8 +31,8 @@ export default function Home() {
   const handleShare = () => {
     if (navigator.share) {
       navigator.share({
-        title: 'LinkedIn Clone',
-        text: 'Check out this LinkedIn clone!',
+        title: 'Rezide-inspired Real Estate Experience',
+        text: 'Explore trusted properties and a modern real estate experience.',
         url: window.location.href,
       })
     } else {
@@ -49,15 +49,14 @@ export default function Home() {
       <main className="main-content">
         <div className="container">
           <div className="content-section">
-            <h1>Welcome to LinkedIn Clone</h1>
+            <h1>Discover trusted homes and modern living</h1>
             <p>
-              This is a simple LinkedIn-like webpage built with Next.js. 
-              Connect with professionals, share your thoughts, and grow your network.
+              Rezide, where we are redefining the real estate experience by empowering realtors with a seamless, tech-driven platform.
             </p>
           </div>
 
           <div className="content-section">
-            <h2>Featured Content</h2>
+            <h2>Featured Properties</h2>
             
             {/* LinkedIn-style post layout */}
             <div className="linkedin-post">
@@ -70,7 +69,7 @@ export default function Home() {
                 />
                 <div className="image-overlay">
                   <h3>Leveraging Technology in Real Estate Services</h3>
-                  <p>WHAT NEXT - 14 SEPT 2023</p>
+                  <p>What Next · 14 Sept 2023</p>
                 </div>
               </div>
               
